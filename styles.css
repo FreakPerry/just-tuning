@@ -1,0 +1,125 @@
+:root {
+  --primary-black: #131926;
+  --primary-white: #fafafa;
+  --active-button: #df2528;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+}
+
+.header__logo {
+  width: 100px;
+  height: 100px;
+  background: url(images/logo.svg) no-repeat center / cover;
+}
+
+.header__src-frm {
+  margin: 32px 0 0 100px;
+  position: relative;
+}
+
+.header__src-inpt {
+  box-sizing: border-box;
+  width: 200px;
+  border: 0;
+  border-bottom: 2px solid var(--primary-black);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22.05px;
+  padding: 2px 0 8px 33px;
+  color: var(--primary-black);
+}
+
+.header__src-icon {
+  width: 17.49px;
+  height: 17.49px;
+  background: url(images/src-icon.svg) no-repeat center / cover;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 80px;
+  margin: 40px 0 0 129px;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--primary-black);
+  text-box-edge: cap, both;
+}
+
+.button {
+  font-weight: 800;
+  padding: 0;
+  border-radius: 29px;
+}
+
+.button_place_header {
+  width: 230px;
+  height: 58px;
+  font-size: 18px;
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+  margin: 22px 23px 0 297px;
+  border: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner__title {
+  margin: 54px 0 0 0;
+  color: var(--primary-black);
+  font-size: 185px;
+  font-weight: 800;
+  line-height: 226.63px;
+  text-transform: uppercase;
+}
+
+.filter {
+  max-width: 1162px;
+  margin: 80px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 20px;
+}
+
+.filter__buttons {
+  font-size: 14px;
+  height: 49px;
+  border: 2px solid var(--primary-black);
+  background-color: var(--primary-white);
+}
+
+.filter__buttons_active {
+  border: 0;
+  background-color: var(--active-button);
+  color: var(--primary-white);
+}
+
+.button_sz_s {
+  width: 147px;
+}
+
+.button_sz_m {
+  width: 200px;
+}
+
+.button_sz_l {
+  width: 237px;
+}
+
+.button_sz_xl {
+  width: 274px;
+}

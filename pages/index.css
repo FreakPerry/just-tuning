@@ -1,7 +1,11 @@
 /* vendor */
 
-@import url(../vendors/normalize.css);
+@import url(../vendor/normalize.css);
 
 /* fonts */
 
-@import url(../vendors/fonts/gilroy.css);
+@import url(../vendor/fonts/gilroy.css);
+
+/* page */
+
+@import url(../blocks/page/page.css);
