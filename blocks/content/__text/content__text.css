@@ -1,0 +1,7 @@
+.content__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+  color: var(--primary-black);
+}

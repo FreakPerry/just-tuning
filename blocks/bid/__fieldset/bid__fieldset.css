@@ -1,0 +1,7 @@
+.bid__fieldset {
+  display: flex;
+  gap: 40px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}

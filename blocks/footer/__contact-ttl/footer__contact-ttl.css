@@ -1,0 +1,7 @@
+.footer__contact-ttl {
+  margin: 0;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--primary-white);
+}

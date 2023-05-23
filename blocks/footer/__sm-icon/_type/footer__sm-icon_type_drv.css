@@ -1,0 +1,7 @@
+.footer__sm-icon_type_drv {
+  background: url(../../../../images/drive-icon.svg) no-repeat center / cover;
+}
+
+.footer__sm-icon_type_drv:hover {
+  background: url(../../../../images/drive-icon-hover.svg) no-repeat center / cover;
+}

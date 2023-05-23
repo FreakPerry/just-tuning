@@ -1,0 +1,4 @@
+.bid__number {
+  text-decoration: none;
+  color: var(--active-button);
+}

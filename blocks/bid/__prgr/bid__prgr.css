@@ -1,0 +1,9 @@
+.bid__prgr {
+  max-width: 1020px;
+  margin: 0;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  color: var(--main-bg);
+  align-self: flex-start;
+}

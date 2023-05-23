@@ -1,0 +1,7 @@
+.footer__legal {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--primary-white);
+}

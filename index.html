@@ -12,10 +12,10 @@
     <div class="page">
       <div class="header">
         <div class="header__logo"></div>
-        <div class="header__src-frm">
-          <div class="header__src-icon"></div>
-          <input type="search" class="header__src-inpt" placeholder="Поиск" />
-        </div>
+        <form class="search search__frm search__frm_place_header">
+          <div class="search__icon search__icon_place_header"></div>
+          <input type="search" class="search__inpt search__inpt_place_header" placeholder="Поиск" />
+        </form>
         <div class="header__menu">
           <a class="header__link" href="#">Главная</a>
           <a class="header__link" href="#">О нас</a>
@@ -29,7 +29,7 @@
           <h1 class="banner__title">just-tuning</h1>
         </section>
         <section class="filter">
-          <button class="button filter__buttons button_color_red button_sz_s">Все работы</button>
+          <button class="button filter__buttons button_stl_red button_sz_s">Все работы</button>
           <button class="button filter__buttons button_sz_m">Шумоизоляция</button>
           <button class="button filter__buttons button_sz_s">Детейлинг</button>
           <button class="button filter__buttons button_sz_m">Оклейка пленкой</button>
@@ -135,8 +135,8 @@
           <h2 class="projects__title">Проекты</h2>
           <div class="projects__grid">
             <div class="project__info">
-              <h3 class="project__info-title">Пошив салона</h3>
-              <p class="project__info-descr">
+              <h3 class="project__cell-title">Пошив салона</h3>
+              <p class="project__description">
                 Lörem ipsum stenor reng om telesat. Dogarade detäheten, vase: vypp, hexanat.
                 Turistkorridor vifat för ossade. Gangar ir mikit tibel. Lere överklassafari.
               </p>
@@ -152,15 +152,15 @@
               class="project__img"
             />
             <div class="project__info">
-              <h3 class="project__info-title">Пошив салона</h3>
-              <p class="project__info-descr">
+              <h3 class="project__cell-title">Пошив салона</h3>
+              <p class="project__description">
                 Lörem ipsum stenor reng om telesat. Dogarade detäheten, vase: vypp, hexanat.
                 Turistkorridor vifat för ossade. Gangar ir mikit tibel. Lere överklassafari.
               </p>
             </div>
             <div class="project__info">
-              <h3 class="project__info-title">Пошив салона</h3>
-              <p class="project__info-descr">
+              <h3 class="project__cell-title">Пошив салона</h3>
+              <p class="project__description">
                 Lörem ipsum stenor reng om telesat. Dogarade detäheten, vase: vypp, hexanat.
                 Turistkorridor vifat för ossade. Gangar ir mikit tibel. Lere överklassafari.
               </p>
@@ -202,10 +202,12 @@
           <h2 class="bid__title">
             Оставьте заявку и мы подберём оптимальный вариант под необходимые задачи
           </h2>
-          <form class="bid__form" action="">
-            <input class="bid__form-input" placeholder="Ваше имя" type="text" />
-            <input class="bid__form-input" placeholder="+ 7 (953) 567-34-56" type="tel" />
-            <button class="button button_color_red bid__sbm-btn">Отправить заявку</button>
+          <form class="bid__form">
+            <fieldset class="bid__fieldset">
+              <input class="bid__form-input" placeholder="Ваше имя" type="text" />
+              <input class="bid__form-input" placeholder="+ 7 (953) 567-34-56" type="tel" />
+            </fieldset>
+            <button class="button button_stl_red bid__sbm-btn">Отправить заявку</button>
           </form>
           <p class="bid__prgr">
             Или свяжитесь самостоятельно по номеру
@@ -214,7 +216,7 @@
           </p>
         </section>
         <section class="map">
-          <h2 class="map_title">Где мы находимся</h2>
+          <h2 class="map__title">Где мы находимся</h2>
           <div class="map__container">
             <a
               class="map__link"
@@ -236,6 +238,43 @@
           </div>
         </section>
       </main>
+      <footer class="footer">
+        <div class="footer__top-row">
+          <div class="footer__logo"></div>
+          <div class="footer__container">
+            <a href="#" class="footer__link">Главная</a>
+            <a href="#" class="footer__link">О нас</a>
+            <a href="#" class="footer__link">Контакты</a>
+          </div>
+          <div class="footer__container">
+            <a href="#" class="footer__link">г. Москва МКАД 32-й км стр. 4</a>
+            <a href="tel:+74952043656" class="footer__link">+7 (495) 204-36-56</a>
+            <a href="tel:+79858860655" class="footer__link">+7 (985) 886-06-55</a>
+          </div>
+          <div class="footer__container">
+            <form class="search search__frm search__frm_place_footer" action="">
+              <div class="search__icon search__icon_place_footer"></div>
+              <input
+                type="search"
+                class="search__inpt search__inpt_place_footer"
+                placeholder="Поиск"
+              />
+            </form>
+            <p class="footer__contact-ttl">Мы в социальных сетях:</p>
+            <div class="footer__sm-links">
+              <a href="#" class="footer__sm-icon footer__sm-icon_type_inst"></a>
+              <a href="#" class="footer__sm-icon footer__sm-icon_type_vk"></a>
+              <a href="#" class="footer__sm-icon footer__sm-icon_type_yb"></a>
+              <a href="#" class="footer__sm-icon footer__sm-icon_type_drv"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bot-row">
+          <p class="footer__legal">Политика конфиденциальности</p>
+          <p class="footer__legal">Публичная офферта</p>
+          <p class="footer__legal">Все права защищены © 2023</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

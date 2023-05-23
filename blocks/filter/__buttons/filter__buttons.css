@@ -1,0 +1,6 @@
+.filter__buttons {
+  font-size: 14px;
+  height: 49px;
+  border: 2px solid var(--primary-black);
+  background-color: var(--primary-white);
+}

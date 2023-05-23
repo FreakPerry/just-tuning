@@ -1,0 +1,8 @@
+.project__info {
+  box-sizing: border-box;
+  padding: 146px 193px 146px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: var(--gray-bg);
+}

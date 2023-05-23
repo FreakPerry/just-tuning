@@ -1,0 +1,7 @@
+.footer__sm-icon_type_vk {
+  background: url(../../../../images/vk-icon.svg) no-repeat center / cover;
+}
+
+.footer__sm-icon_type_vk:hover {
+  background: url(../../../../images/vk-icon-hover.svg) no-repeat center / cover;
+}

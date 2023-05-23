@@ -1,0 +1,6 @@
+.content__container {
+  max-width: 1161px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

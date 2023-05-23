@@ -1,0 +1,5 @@
+.button_stl_red {
+  border: 0;
+  background-color: var(--active-button);
+  color: var(--primary-white);
+}

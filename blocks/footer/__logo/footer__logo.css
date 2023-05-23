@@ -1,0 +1,5 @@
+.footer__logo {
+  width: 200px;
+  height: 200px;
+  background: url(../../../images/logo-footer.svg) no-repeat center / cover;
+}

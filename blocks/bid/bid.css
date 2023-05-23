@@ -1,0 +1,11 @@
+.bid {
+  margin-top: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 73px 140px 71px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  align-items: center;
+  background-color: var(--primary-black);
+}

@@ -1,0 +1,5 @@
+.search__inpt_place_header {
+  background-color: var(--main-bg);
+  border-bottom: 2px solid var(--primary-black);
+  color: var(--primary-black);
+}

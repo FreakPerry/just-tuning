@@ -1,0 +1,7 @@
+.footer__sm-icon_type_inst {
+  background: url(../../../../images/inst-icon.svg) no-repeat center / cover;
+}
+
+.footer__sm-icon_type_inst:hover {
+  background: url(../../../../images/inst-icon-hover.svg) no-repeat center / cover;
+}

@@ -1,0 +1,5 @@
+.bid__form {
+  margin: 0;
+  display: flex;
+  gap: 40px;
+}

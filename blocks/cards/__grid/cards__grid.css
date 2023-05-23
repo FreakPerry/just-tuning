@@ -1,0 +1,7 @@
+.cards__grid {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 60px 40px;
+  justify-content: center;
+}

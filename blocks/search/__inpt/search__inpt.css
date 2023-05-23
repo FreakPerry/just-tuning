@@ -1,0 +1,9 @@
+.search__inpt {
+  width: 200px;
+  box-sizing: border-box;
+  border: 0;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22.05px;
+  padding: 2px 0 8px 33px;
+}

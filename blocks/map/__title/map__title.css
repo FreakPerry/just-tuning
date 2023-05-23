@@ -1,0 +1,7 @@
+.map__title {
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 123px;
+  color: var(--primary-black);
+}

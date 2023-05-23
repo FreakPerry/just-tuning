@@ -1,0 +1,12 @@
+:root {
+  --primary-black: #131926;
+  --primary-white: #fafafa;
+  --active-button: #df2528;
+  --main-bg: #fafafa;
+  --lightgray: #b7b8bc;
+  --gray-bg: #f0f0f0;
+}
+
+.root {
+  background-color: var(--main-bg);
+}

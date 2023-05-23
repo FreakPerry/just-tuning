@@ -1,0 +1,8 @@
+.button_stl_blck {
+  width: 230px;
+  height: 58px;
+  font-size: 18px;
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+  border: 0;
+}

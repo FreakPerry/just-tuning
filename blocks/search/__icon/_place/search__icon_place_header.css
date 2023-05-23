@@ -1,0 +1,8 @@
+.search__icon_place_header {
+  width: 17.49px;
+  height: 17.49px;
+  background: url(../../../../images/src-icon.svg) no-repeat center / cover;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+}

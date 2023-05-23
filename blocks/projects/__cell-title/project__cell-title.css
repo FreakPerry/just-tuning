@@ -1,0 +1,7 @@
+.project__cell-title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  color: var(--primary-black);
+}

@@ -1,0 +1,11 @@
+.card__info {
+  width: 360px;
+  min-height: 182px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  box-sizing: border-box;
+  padding: 29px 59px 0 26px;
+}

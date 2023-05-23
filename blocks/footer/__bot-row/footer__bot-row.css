@@ -1,0 +1,4 @@
+.footer__bot-row {
+  display: flex;
+  justify-content: space-between;
+}

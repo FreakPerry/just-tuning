@@ -1,0 +1,7 @@
+.footer__sm-icon_type_yb {
+  background: url(../../../../images/youtube-icon.svg) no-repeat center / cover;
+}
+
+.footer__sm-icon_type_yb:hover {
+  background: url(../../../../images/yotube-icon-hover.svg) no-repeat center / cover;
+}

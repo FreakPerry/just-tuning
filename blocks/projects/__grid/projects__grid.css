@@ -1,0 +1,7 @@
+.projects__grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 440px);
+  overflow: hidden;
+}
